@@ -7,7 +7,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 app.layout = html.Div(children=[
-    html.H2(children='Hello Dash!'),
+    html.H2(children='Hello Cash!'),
 
     html.Div(children='''
         Dash: A web application framework for Python.
